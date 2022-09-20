@@ -1,0 +1,264 @@
+@font-face
+{
+	font-family: 'bbiketowork';
+	src: url('bbiketowork.eot');
+	src: url('bbiketowork.ttf') format('truetype'),
+		 url('bbiketowork.eot?#iefix') format('embedded-opentype'),
+         url('bbiketowork.woff2') format('woff2'),
+         url('bbiketowork.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atkinson';
+    src: url('atkinson-hyperlegible.eot');
+    src: url('atkinson-hyperlegible.eot?#iefix') format('embedded-opentype'),
+         url('atkinson-hyperlegible.woff2') format('woff2'),
+         url('atkinson-hyperlegible.woff') format('woff'),
+         url('atkinson-hyperlegible.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header
+{
+	display: flex;
+	background: url(images/banniere-voyage.png) center;
+	border: 1px orange solid;
+	border-radius: 30px;
+	box-shadow: 6px 6px 6px #1c1a19;
+	padding-left: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#titre_site
+{
+	width: 200px;
+	font-size: 1.5em;
+	font-family: 'bbiketowork', Arial, serif;
+	text-shadow: 2px 2px 2px orange;
+}
+
+body
+{
+	background-image: url(images/yellow_wood.jpg);
+	background-attachment: fixed;
+}
+
+#bloc_principal
+{
+	width: auto;
+	margin: auto;
+}
+
+nav ul 
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li 
+{
+	margin-right: 15px;
+	padding-top: 20px;
+	text-shadow: 2px 2px 2px orange;
+
+}
+
+nav a 
+{
+	font-size: 1.5em;
+	font-family: 'bbiketowork', Arial, serif;
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: orange;
+	border-bottom: 2px solid orange;
+}
+
+/* Bannière */
+
+#banniere_noir
+{
+	display: flex;
+	position: relative;
+	height: 60px;
+	background: url('images/fond_section.jpg') repeat;
+	border: 1px orange solid;
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px #1c1a19;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#meltingpot
+{ 
+    font-family: 'bbiketowork', Arial, serif;
+    color: white;
+    font-size: 1.5em;
+	text-shadow: 2px 2px 2px orange;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+
+.bouton_go
+{
+	position: absolute;
+	right: 10px;
+	bottom: 11px;
+    height: 60%;
+}
+
+#section_principale
+{
+	display: flex;
+	height: auto;
+	background-image: url(images/fond_section.jpg);
+	font-family: 'bbiketowork', Arial, serif;
+	color: white;
+	border: 1px orange solid;
+	border-radius: 30px;
+	box-shadow: 6px 6px 6px #1c1a19;
+}
+
+#titre_section_1
+{
+	margin-top: 20px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px orange;
+	text-align: center;
+}
+
+#texte_section_1
+{
+	width: 98%;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px #1c1a19;
+	margin-top: -10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+	text-align: justify;
+}
+
+aside
+{
+	height: auto;
+	width:  250px;
+	border-radius: 30px;
+	border: 1px orange solid;
+	box-shadow: 6px 6px 6px #1c1a19;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 15px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.logo_voyage
+{
+    height: 150px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#logo_reseaux
+{
+	display: flex;
+	height: 42px;
+	width: 155px;
+	border: 1px orange solid;
+	border-radius: 30px;
+	box-shadow: 6px 6px 6px #1c1a19;
+	background-image: url(images/fond_section.jpg);
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.facebook, .instagram, .whatsapp, .linkedin
+{
+	isplay: flex;
+	height: 33px;
+	width: auto;
+	padding-top: 4px;
+	padding-right: 2.2px;
+	padding-left: 3.2px;
+}
+
+footer
+{
+	display: flex;
+	height: auto;
+	width: auto;
+	color: white;
+	background-image: url(images/fond_section.jpg);
+	font-family: 'bbiketowork', Arial, serif;
+	border: 1px orange solid;
+	border-radius: 30px;
+	box-shadow: 6px 6px 6px #1c1a19;
+	margin-top: 15px;
+	padding-left: 10px;
+	lign-items: center;
+	justify-content: space-around;
+}
+
+h2
+{
+	font-size: 1.2em;
+	text-shadow: 2px 2px 2px orange;
+	text-align: center;
+	text-decoration: underline;
+}
+
+footer a
+{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	color: orange;
+}
+
+#h2_contacts
+{
+	width: 120px;
+	text-align: right;
+}
+
+#li_contacts
+{
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.img_para_footer, .img_photo_footer, .img_voyage_footer 
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #1c1a19;
+	justify-content: space-between;
+}
+
+#mes_amis
+{
+	list-style-image: url('images/puce_avion.png') ;
+}
+
+#copyright
+{
+	font-family: 'bbiketowork', Arial, serif;
+	color: white;
+	margin-top: 15px;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+}
